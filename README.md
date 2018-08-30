@@ -11,19 +11,19 @@ d3.js based polarplot with zoom capability
 
 * Add div tag
 
-  <div>
-      <input type="radio" name="pattern" value="1" onclick="getColor(this.value)" checked> <span style= "color: red">Red</span><br>
-       <input type="radio" name="pattern" value="2" onclick="getColor(this.value)"> <span style= "color: green" >Green</span><br>
-      <br>
-  </div>
-  <button id="zoom_in">+</button>
-  <button id="zoom_out">-</button>
-  <button id="zoom_init"> Init</button>
-  <button id="stop-brush"> sb</button>
-  <div id="div_svg"></div>
+          <div>
+              <input type="radio" name="pattern" value="1" onclick="getColor(this.value)" checked> <span style= "color: red">Red</span><br>
+               <input type="radio" name="pattern" value="2" onclick="getColor(this.value)"> <span style= "color: green" >Green</span><br>
+              <br>
+          </div>
+          <button id="zoom_in">+</button>
+          <button id="zoom_out">-</button>
+          <button id="zoom_init"> Init</button>
+          <button id="stop-brush"> sb</button>
+          <div id="div_svg"></div>
 
-![Image](polarPlotBeforeZoomBrush.jpeg)
+![Image](polarPlotBeforeZoomBrush.jpg)
 
-![Image](polarPlotAfterZoomBrush.jpeg)
+![Image](polarPlotAfterZoomBrush.jpg)
 
 [Sample project](https://codepen.io/bsrvasulu/pen/YjoBvN)
