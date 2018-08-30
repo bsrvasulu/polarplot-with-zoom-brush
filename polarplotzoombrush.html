@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Polarplot</title>
+<body>
+  <div>
+      <input type="radio" name="pattern" value="1" onclick="getColor(this.value)" checked> <span style= "color: red">Red</span><br>
+  <input type="radio" name="pattern" value="2" onclick="getColor(this.value)"> <span style= "color: green" >Green</span><br>
+<!--   <input type="radio" name="pattern" value="0" checked onclick="getColor(this.value)"> <span>No Paint</span> -->
+      <br>
+  </div>
+  <button id="zoom_in">+</button>
+  <button id="zoom_out">-</button>
+<button id="zoom_init"> Init</button>
+  <button id="stop-brush"> sb</button>
+  <div id="div_svg"></div>
+</body>
