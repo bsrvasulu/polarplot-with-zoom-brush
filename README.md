@@ -1,4 +1,4 @@
-# polarplot with zoom
+# Polarplot with zoom and brush
 d3.js based polarplot with zoom capability
 
 ## Steps to integrate:
